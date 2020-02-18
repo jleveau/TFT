@@ -1,0 +1,3 @@
+/home/jleveau/CLionProjects/TFT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jleveau/CLionProjects/TFT/cmake-build-debug/CMakeFiles/TFT.dir
+/home/jleveau/CLionProjects/TFT/cmake-build-debug/CMakeFiles/edit_cache.dir
