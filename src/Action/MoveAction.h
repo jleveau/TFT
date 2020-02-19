@@ -12,8 +12,6 @@ class MoveAction: public Action {
 
 public:
     GameObject* gameObject;
-
-
     MoveAction(Tile *target, TileMap *tileMap, GameObject *gameObject);
 
     void perform() override;

@@ -16,7 +16,6 @@ public:
     TileMap* tileMap;
 
 
-
     virtual void perform() = 0;
 
     Action(Tile *target, TileMap *tileMap);

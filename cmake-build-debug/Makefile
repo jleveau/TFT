@@ -150,6 +150,33 @@ src/Action/Action.cpp.s:
 	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Action/Action.cpp.s
 .PHONY : src/Action/Action.cpp.s
 
+src/Action/AttackAction.o: src/Action/AttackAction.cpp.o
+
+.PHONY : src/Action/AttackAction.o
+
+# target to build an object file
+src/Action/AttackAction.cpp.o:
+	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.o
+.PHONY : src/Action/AttackAction.cpp.o
+
+src/Action/AttackAction.i: src/Action/AttackAction.cpp.i
+
+.PHONY : src/Action/AttackAction.i
+
+# target to preprocess a source file
+src/Action/AttackAction.cpp.i:
+	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.i
+.PHONY : src/Action/AttackAction.cpp.i
+
+src/Action/AttackAction.s: src/Action/AttackAction.cpp.s
+
+.PHONY : src/Action/AttackAction.s
+
+# target to generate assembly for a file
+src/Action/AttackAction.cpp.s:
+	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.s
+.PHONY : src/Action/AttackAction.cpp.s
+
 src/Action/MoveAction.o: src/Action/MoveAction.cpp.o
 
 .PHONY : src/Action/MoveAction.o
@@ -177,6 +204,33 @@ src/Action/MoveAction.cpp.s:
 	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Action/MoveAction.cpp.s
 .PHONY : src/Action/MoveAction.cpp.s
 
+src/Action/WaitAction.o: src/Action/WaitAction.cpp.o
+
+.PHONY : src/Action/WaitAction.o
+
+# target to build an object file
+src/Action/WaitAction.cpp.o:
+	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.o
+.PHONY : src/Action/WaitAction.cpp.o
+
+src/Action/WaitAction.i: src/Action/WaitAction.cpp.i
+
+.PHONY : src/Action/WaitAction.i
+
+# target to preprocess a source file
+src/Action/WaitAction.cpp.i:
+	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.i
+.PHONY : src/Action/WaitAction.cpp.i
+
+src/Action/WaitAction.s: src/Action/WaitAction.cpp.s
+
+.PHONY : src/Action/WaitAction.s
+
+# target to generate assembly for a file
+src/Action/WaitAction.cpp.s:
+	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.s
+.PHONY : src/Action/WaitAction.cpp.s
+
 src/Character/Character.o: src/Character/Character.cpp.o
 
 .PHONY : src/Character/Character.o
@@ -203,6 +257,33 @@ src/Character/Character.s: src/Character/Character.cpp.s
 src/Character/Character.cpp.s:
 	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Character/Character.cpp.s
 .PHONY : src/Character/Character.cpp.s
+
+src/Strategy/AttackClosestEnemyStrategy.o: src/Strategy/AttackClosestEnemyStrategy.cpp.o
+
+.PHONY : src/Strategy/AttackClosestEnemyStrategy.o
+
+# target to build an object file
+src/Strategy/AttackClosestEnemyStrategy.cpp.o:
+	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o
+.PHONY : src/Strategy/AttackClosestEnemyStrategy.cpp.o
+
+src/Strategy/AttackClosestEnemyStrategy.i: src/Strategy/AttackClosestEnemyStrategy.cpp.i
+
+.PHONY : src/Strategy/AttackClosestEnemyStrategy.i
+
+# target to preprocess a source file
+src/Strategy/AttackClosestEnemyStrategy.cpp.i:
+	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.i
+.PHONY : src/Strategy/AttackClosestEnemyStrategy.cpp.i
+
+src/Strategy/AttackClosestEnemyStrategy.s: src/Strategy/AttackClosestEnemyStrategy.cpp.s
+
+.PHONY : src/Strategy/AttackClosestEnemyStrategy.s
+
+# target to generate assembly for a file
+src/Strategy/AttackClosestEnemyStrategy.cpp.s:
+	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.s
+.PHONY : src/Strategy/AttackClosestEnemyStrategy.cpp.s
 
 src/Tiles/Tile.o: src/Tiles/Tile.cpp.o
 
@@ -297,12 +378,21 @@ help:
 	@echo "... src/Action/Action.o"
 	@echo "... src/Action/Action.i"
 	@echo "... src/Action/Action.s"
+	@echo "... src/Action/AttackAction.o"
+	@echo "... src/Action/AttackAction.i"
+	@echo "... src/Action/AttackAction.s"
 	@echo "... src/Action/MoveAction.o"
 	@echo "... src/Action/MoveAction.i"
 	@echo "... src/Action/MoveAction.s"
+	@echo "... src/Action/WaitAction.o"
+	@echo "... src/Action/WaitAction.i"
+	@echo "... src/Action/WaitAction.s"
 	@echo "... src/Character/Character.o"
 	@echo "... src/Character/Character.i"
 	@echo "... src/Character/Character.s"
+	@echo "... src/Strategy/AttackClosestEnemyStrategy.o"
+	@echo "... src/Strategy/AttackClosestEnemyStrategy.i"
+	@echo "... src/Strategy/AttackClosestEnemyStrategy.s"
 	@echo "... src/Tiles/Tile.o"
 	@echo "... src/Tiles/Tile.i"
 	@echo "... src/Tiles/Tile.s"

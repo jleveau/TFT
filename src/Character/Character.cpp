@@ -4,7 +4,7 @@
 
 #include "Character.h"
 
-Character::Character(const std::string &name, int healthMax) : healthMax(healthMax) {
+Character::Character(const std::string &name, int healthMax, int damage) : healthMax(healthMax), damage(damage) {
     this->name = name;
     this->currentHealth = this->healthMax;
 }
@@ -15,4 +15,7 @@ std::string Character::toString() {
     return s;
 }
 
+void Character::receiveAttack(Character *characterAttacker) {
+    this->currentHealth -= characterAttacker->damage;
+}
 

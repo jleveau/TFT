@@ -7,17 +7,19 @@
 
 #include <string>
 #include "../Tiles/Tile.h"
-#include "GameObject.h"
 
-class Character: public GameObject {
+class Character: public GameObject  {
 
-private:
-    int healthMax;
-    int currentHealth;
+    private:
+        int healthMax;
+        int currentHealth;
+        int damage;
 
-public:
-    Character(const std::string &name, int healthMax);
-    std::string toString();
+    public:
+        Character(const std::string &name, int healthMax, int damage);
+        std::string toString();
+
+        void receiveAttack(Character* character) override;
 };
 
 

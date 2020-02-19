@@ -90,10 +90,22 @@
 		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Action/Action.h">
 			<Option target="TFT"/>
 		</Unit>
+		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Action/AttackAction.cpp">
+			<Option target="TFT"/>
+		</Unit>
+		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Action/AttackAction.h">
+			<Option target="TFT"/>
+		</Unit>
 		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Action/MoveAction.cpp">
 			<Option target="TFT"/>
 		</Unit>
 		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Action/MoveAction.h">
+			<Option target="TFT"/>
+		</Unit>
+		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Action/WaitAction.cpp">
+			<Option target="TFT"/>
+		</Unit>
+		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Action/WaitAction.h">
 			<Option target="TFT"/>
 		</Unit>
 		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Character/Character.cpp">
@@ -103,6 +115,15 @@
 			<Option target="TFT"/>
 		</Unit>
 		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Character/GameObject.h">
+			<Option target="TFT"/>
+		</Unit>
+		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Strategy/AttackClosestEnemyStrategy.cpp">
+			<Option target="TFT"/>
+		</Unit>
+		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Strategy/AttackClosestEnemyStrategy.h">
+			<Option target="TFT"/>
+		</Unit>
+		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Strategy/Strategy.h">
 			<Option target="TFT"/>
 		</Unit>
 		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Tiles/Tile.cpp">

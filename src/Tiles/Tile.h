@@ -11,28 +11,15 @@
 
 class Tile {
 
-    private:
+    public:
         int x;
         int y;
-        std::set<GameObject*>* gameobjects;
 
-    public:
         Tile(int x, int y);
-
-    int getX() const;
-
-    void setX(int x);
-
-    int getY() const;
-
-    void setY(int y);
-
-    std::set<GameObject *> *getGameobjects() const;
-
-    void setGameobjects(std::set<GameObject *> *gameobjects);
-
-    std::string toString();
+        std::set<GameObject*>* gameobjects;
+        std::string toString();
         void addGameObject(GameObject* gameObject);
+        bool containsGameObject(GameObject* gameObject);
 };
 
 

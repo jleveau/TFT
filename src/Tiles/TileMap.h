@@ -17,10 +17,18 @@ public:
     int height;
     Tile*** tiles;
 
+    std::set<GameObject*>* gameobjects;
+
     TileMap(int width, int height);
+
     void removeGameObject(GameObject* gameObject);
+    void addGameObject(int x, int y, GameObject* gameObject);
+
 
     std::string toString();
+
+    Tile *getTileForGameObject(GameObject *gameObject);
+    int distance(Tile* tile1, Tile* tile2);
 };
 
 

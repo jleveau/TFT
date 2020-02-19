@@ -135,6 +135,45 @@ CMakeFiles/TFT.dir/src/Action/MoveAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TFT.dir/src/Action/MoveAction.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jleveau/CLionProjects/TFT/src/Action/MoveAction.cpp -o CMakeFiles/TFT.dir/src/Action/MoveAction.cpp.s
 
+CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.o: CMakeFiles/TFT.dir/flags.make
+CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.o: ../src/Action/AttackAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jleveau/CLionProjects/TFT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.o -c /home/jleveau/CLionProjects/TFT/src/Action/AttackAction.cpp
+
+CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jleveau/CLionProjects/TFT/src/Action/AttackAction.cpp > CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.i
+
+CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jleveau/CLionProjects/TFT/src/Action/AttackAction.cpp -o CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.s
+
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o: CMakeFiles/TFT.dir/flags.make
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o: ../src/Strategy/AttackClosestEnemyStrategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jleveau/CLionProjects/TFT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o -c /home/jleveau/CLionProjects/TFT/src/Strategy/AttackClosestEnemyStrategy.cpp
+
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jleveau/CLionProjects/TFT/src/Strategy/AttackClosestEnemyStrategy.cpp > CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.i
+
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jleveau/CLionProjects/TFT/src/Strategy/AttackClosestEnemyStrategy.cpp -o CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.s
+
+CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.o: CMakeFiles/TFT.dir/flags.make
+CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.o: ../src/Action/WaitAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jleveau/CLionProjects/TFT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.o -c /home/jleveau/CLionProjects/TFT/src/Action/WaitAction.cpp
+
+CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jleveau/CLionProjects/TFT/src/Action/WaitAction.cpp > CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.i
+
+CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jleveau/CLionProjects/TFT/src/Action/WaitAction.cpp -o CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.s
+
 # Object files for target TFT
 TFT_OBJECTS = \
 "CMakeFiles/TFT.dir/src/main.cpp.o" \
@@ -142,7 +181,10 @@ TFT_OBJECTS = \
 "CMakeFiles/TFT.dir/src/Tiles/Tile.cpp.o" \
 "CMakeFiles/TFT.dir/src/Character/Character.cpp.o" \
 "CMakeFiles/TFT.dir/src/Action/Action.cpp.o" \
-"CMakeFiles/TFT.dir/src/Action/MoveAction.cpp.o"
+"CMakeFiles/TFT.dir/src/Action/MoveAction.cpp.o" \
+"CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.o" \
+"CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o" \
+"CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.o"
 
 # External object files for target TFT
 TFT_EXTERNAL_OBJECTS =
@@ -153,9 +195,12 @@ TFT: CMakeFiles/TFT.dir/src/Tiles/Tile.cpp.o
 TFT: CMakeFiles/TFT.dir/src/Character/Character.cpp.o
 TFT: CMakeFiles/TFT.dir/src/Action/Action.cpp.o
 TFT: CMakeFiles/TFT.dir/src/Action/MoveAction.cpp.o
+TFT: CMakeFiles/TFT.dir/src/Action/AttackAction.cpp.o
+TFT: CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o
+TFT: CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.o
 TFT: CMakeFiles/TFT.dir/build.make
 TFT: CMakeFiles/TFT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jleveau/CLionProjects/TFT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable TFT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jleveau/CLionProjects/TFT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable TFT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TFT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

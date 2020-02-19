@@ -5,11 +5,14 @@
 #ifndef TFT_GAMEOBJECT_H
 #define TFT_GAMEOBJECT_H
 
+class Character;
 
 class GameObject {
 
-public:
-    std::string name;
+    public:
+        std::string name;
+        virtual void receiveAttack(Character* characterAttacker)=0;
+
 };
 
 
