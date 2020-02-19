@@ -126,6 +126,12 @@
 		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Strategy/Strategy.h">
 			<Option target="TFT"/>
 		</Unit>
+		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Tiles/PathFinding.cpp">
+			<Option target="TFT"/>
+		</Unit>
+		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Tiles/PathFinding.h">
+			<Option target="TFT"/>
+		</Unit>
 		<Unit filename="/home/jleveau/CLionProjects/TFT/src/Tiles/Tile.cpp">
 			<Option target="TFT"/>
 		</Unit>

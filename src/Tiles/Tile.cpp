@@ -26,4 +26,13 @@ bool Tile::containsGameObject(GameObject *gameObject) {
     return this->gameobjects->find(gameObject) != this->gameobjects->end();
 }
 
+bool Tile::isTraversable() {
+    for(auto gameobject : *gameobjects) {
+        if (!gameobject->isTraversable()) {
+            return  false;
+        }
+    }
+    return true;
+}
+
 

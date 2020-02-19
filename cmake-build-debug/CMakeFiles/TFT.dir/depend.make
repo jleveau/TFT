@@ -22,19 +22,29 @@ CMakeFiles/TFT.dir/src/Action/MoveAction.cpp.o: ../src/Character/GameObject.h
 CMakeFiles/TFT.dir/src/Action/MoveAction.cpp.o: ../src/Tiles/Tile.h
 CMakeFiles/TFT.dir/src/Action/MoveAction.cpp.o: ../src/Tiles/TileMap.h
 
+CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.o: ../src/Action/Action.h
+CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.o: ../src/Action/WaitAction.cpp
+CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.o: ../src/Action/WaitAction.h
+CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.o: ../src/Character/GameObject.h
+CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.o: ../src/Tiles/Tile.h
+CMakeFiles/TFT.dir/src/Action/WaitAction.cpp.o: ../src/Tiles/TileMap.h
+
 CMakeFiles/TFT.dir/src/Character/Character.cpp.o: ../src/Character/Character.cpp
 CMakeFiles/TFT.dir/src/Character/Character.cpp.o: ../src/Character/Character.h
 CMakeFiles/TFT.dir/src/Character/Character.cpp.o: ../src/Character/GameObject.h
 CMakeFiles/TFT.dir/src/Character/Character.cpp.o: ../src/Tiles/Tile.h
 
-CMakeFiles/TFT.dir/src/Strategy/AttackClosestStrategy.cpp.o: ../src/Action/Action.h
-CMakeFiles/TFT.dir/src/Strategy/AttackClosestStrategy.cpp.o: ../src/Character/Character.h
-CMakeFiles/TFT.dir/src/Strategy/AttackClosestStrategy.cpp.o: ../src/Character/GameObject.h
-CMakeFiles/TFT.dir/src/Strategy/AttackClosestStrategy.cpp.o: ../src/Strategy/AttackClosestStrategy.cpp
-CMakeFiles/TFT.dir/src/Strategy/AttackClosestStrategy.cpp.o: ../src/Strategy/AttackClosestStrategy.h
-CMakeFiles/TFT.dir/src/Strategy/AttackClosestStrategy.cpp.o: ../src/Strategy/Strategy.h
-CMakeFiles/TFT.dir/src/Strategy/AttackClosestStrategy.cpp.o: ../src/Tiles/Tile.h
-CMakeFiles/TFT.dir/src/Strategy/AttackClosestStrategy.cpp.o: ../src/Tiles/TileMap.h
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o: ../src/Action/Action.h
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o: ../src/Action/AttackAction.h
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o: ../src/Action/MoveAction.h
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o: ../src/Action/WaitAction.h
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o: ../src/Character/Character.h
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o: ../src/Character/GameObject.h
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o: ../src/Strategy/AttackClosestEnemyStrategy.cpp
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o: ../src/Strategy/AttackClosestEnemyStrategy.h
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o: ../src/Strategy/Strategy.h
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o: ../src/Tiles/Tile.h
+CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.o: ../src/Tiles/TileMap.h
 
 CMakeFiles/TFT.dir/src/Tiles/Tile.cpp.o: ../src/Character/GameObject.h
 CMakeFiles/TFT.dir/src/Tiles/Tile.cpp.o: ../src/Tiles/Tile.cpp

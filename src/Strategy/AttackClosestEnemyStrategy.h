@@ -12,7 +12,6 @@ class AttackClosestEnemyStrategy: public Strategy {
 
 public:
     Action* nextAction(Character *character) override;
-
 };
 
 

@@ -19,7 +19,9 @@ class Character: public GameObject  {
         Character(const std::string &name, int healthMax, int damage);
         std::string toString();
 
-        void receiveAttack(Character* character) override;
+    bool isTraversable() override;
+
+    void receiveAttack(Character* character) override;
 };
 
 

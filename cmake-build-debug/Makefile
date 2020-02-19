@@ -285,6 +285,33 @@ src/Strategy/AttackClosestEnemyStrategy.cpp.s:
 	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Strategy/AttackClosestEnemyStrategy.cpp.s
 .PHONY : src/Strategy/AttackClosestEnemyStrategy.cpp.s
 
+src/Tiles/PathFinding.o: src/Tiles/PathFinding.cpp.o
+
+.PHONY : src/Tiles/PathFinding.o
+
+# target to build an object file
+src/Tiles/PathFinding.cpp.o:
+	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Tiles/PathFinding.cpp.o
+.PHONY : src/Tiles/PathFinding.cpp.o
+
+src/Tiles/PathFinding.i: src/Tiles/PathFinding.cpp.i
+
+.PHONY : src/Tiles/PathFinding.i
+
+# target to preprocess a source file
+src/Tiles/PathFinding.cpp.i:
+	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Tiles/PathFinding.cpp.i
+.PHONY : src/Tiles/PathFinding.cpp.i
+
+src/Tiles/PathFinding.s: src/Tiles/PathFinding.cpp.s
+
+.PHONY : src/Tiles/PathFinding.s
+
+# target to generate assembly for a file
+src/Tiles/PathFinding.cpp.s:
+	$(MAKE) -f CMakeFiles/TFT.dir/build.make CMakeFiles/TFT.dir/src/Tiles/PathFinding.cpp.s
+.PHONY : src/Tiles/PathFinding.cpp.s
+
 src/Tiles/Tile.o: src/Tiles/Tile.cpp.o
 
 .PHONY : src/Tiles/Tile.o
@@ -393,6 +420,9 @@ help:
 	@echo "... src/Strategy/AttackClosestEnemyStrategy.o"
 	@echo "... src/Strategy/AttackClosestEnemyStrategy.i"
 	@echo "... src/Strategy/AttackClosestEnemyStrategy.s"
+	@echo "... src/Tiles/PathFinding.o"
+	@echo "... src/Tiles/PathFinding.i"
+	@echo "... src/Tiles/PathFinding.s"
 	@echo "... src/Tiles/Tile.o"
 	@echo "... src/Tiles/Tile.i"
 	@echo "... src/Tiles/Tile.s"

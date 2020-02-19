@@ -19,3 +19,7 @@ void Character::receiveAttack(Character *characterAttacker) {
     this->currentHealth -= characterAttacker->damage;
 }
 
+bool Character::isTraversable() {
+    return false;
+}
+

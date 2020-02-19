@@ -64,3 +64,15 @@ int TileMap::distance(Tile* tile1, Tile* tile2) {
     return abs((tile1->x - tile2->x) + (tile1->y - tile2->y));
 }
 
+Tile *TileMap::getNextTileOnPath(Tile *start, Tile *target) {
+    if (target->x > start->x) {
+        if (this->tiles[target->x+1][target->y]->isTraversable()){
+            return this->tiles[target->x+1][target->y];
+        }
+        else {
+
+        }
+    }
+}
+
+

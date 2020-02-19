@@ -20,6 +20,7 @@ class Tile {
         std::string toString();
         void addGameObject(GameObject* gameObject);
         bool containsGameObject(GameObject* gameObject);
+        bool isTraversable();
 };
 
 

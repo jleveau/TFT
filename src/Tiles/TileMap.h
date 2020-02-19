@@ -24,11 +24,13 @@ public:
     void removeGameObject(GameObject* gameObject);
     void addGameObject(int x, int y, GameObject* gameObject);
 
+    Tile *getTileForGameObject(GameObject *gameObject);
+    int distance(Tile* tile1, Tile* tile2);
+
+    Tile *getNextTileOnPath(Tile* start, Tile* target);
 
     std::string toString();
 
-    Tile *getTileForGameObject(GameObject *gameObject);
-    int distance(Tile* tile1, Tile* tile2);
 };
 
 

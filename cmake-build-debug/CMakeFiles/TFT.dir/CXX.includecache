@@ -6,15 +6,45 @@
 
 #IncludeRegexTransform: 
 
+/home/jleveau/CLionProjects/TFT/src/Action/Action.cpp
+Action.h
+/home/jleveau/CLionProjects/TFT/src/Action/Action.h
+
 /home/jleveau/CLionProjects/TFT/src/Action/Action.h
 ../Tiles/Tile.h
 /home/jleveau/CLionProjects/TFT/src/Tiles/Tile.h
 ../Tiles/TileMap.h
 /home/jleveau/CLionProjects/TFT/src/Tiles/TileMap.h
 
+/home/jleveau/CLionProjects/TFT/src/Action/AttackAction.cpp
+AttackAction.h
+/home/jleveau/CLionProjects/TFT/src/Action/AttackAction.h
+
+/home/jleveau/CLionProjects/TFT/src/Action/AttackAction.h
+Action.h
+/home/jleveau/CLionProjects/TFT/src/Action/Action.h
+../Character/Character.h
+/home/jleveau/CLionProjects/TFT/src/Character/Character.h
+
+/home/jleveau/CLionProjects/TFT/src/Action/MoveAction.cpp
+MoveAction.h
+/home/jleveau/CLionProjects/TFT/src/Action/MoveAction.h
+
 /home/jleveau/CLionProjects/TFT/src/Action/MoveAction.h
 Action.h
 /home/jleveau/CLionProjects/TFT/src/Action/Action.h
+
+/home/jleveau/CLionProjects/TFT/src/Action/WaitAction.cpp
+WaitAction.h
+/home/jleveau/CLionProjects/TFT/src/Action/WaitAction.h
+
+/home/jleveau/CLionProjects/TFT/src/Action/WaitAction.h
+Action.h
+/home/jleveau/CLionProjects/TFT/src/Action/Action.h
+
+/home/jleveau/CLionProjects/TFT/src/Character/Character.cpp
+Character.h
+/home/jleveau/CLionProjects/TFT/src/Character/Character.h
 
 /home/jleveau/CLionProjects/TFT/src/Character/Character.h
 string
@@ -24,12 +54,46 @@ string
 
 /home/jleveau/CLionProjects/TFT/src/Character/GameObject.h
 
+/home/jleveau/CLionProjects/TFT/src/Strategy/AttackClosestEnemyStrategy.cpp
+climits
+-
+AttackClosestEnemyStrategy.h
+/home/jleveau/CLionProjects/TFT/src/Strategy/AttackClosestEnemyStrategy.h
+../Character/Character.h
+/home/jleveau/CLionProjects/TFT/src/Character/Character.h
+../Action/WaitAction.h
+/home/jleveau/CLionProjects/TFT/src/Action/WaitAction.h
+../Action/AttackAction.h
+/home/jleveau/CLionProjects/TFT/src/Action/AttackAction.h
+../Action/MoveAction.h
+/home/jleveau/CLionProjects/TFT/src/Action/MoveAction.h
+
+/home/jleveau/CLionProjects/TFT/src/Strategy/AttackClosestEnemyStrategy.h
+Strategy.h
+/home/jleveau/CLionProjects/TFT/src/Strategy/Strategy.h
+
+/home/jleveau/CLionProjects/TFT/src/Strategy/Strategy.h
+../Tiles/TileMap.h
+/home/jleveau/CLionProjects/TFT/src/Tiles/TileMap.h
+../Action/Action.h
+/home/jleveau/CLionProjects/TFT/src/Action/Action.h
+
+/home/jleveau/CLionProjects/TFT/src/Tiles/Tile.cpp
+Tile.h
+/home/jleveau/CLionProjects/TFT/src/Tiles/Tile.h
+
 /home/jleveau/CLionProjects/TFT/src/Tiles/Tile.h
 string
 -
 ../Character/GameObject.h
 /home/jleveau/CLionProjects/TFT/src/Character/GameObject.h
 set
+-
+
+/home/jleveau/CLionProjects/TFT/src/Tiles/TileMap.cpp
+TileMap.h
+/home/jleveau/CLionProjects/TFT/src/Tiles/TileMap.h
+iostream
 -
 
 /home/jleveau/CLionProjects/TFT/src/Tiles/TileMap.h

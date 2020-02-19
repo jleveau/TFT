@@ -12,6 +12,7 @@ class GameObject {
     public:
         std::string name;
         virtual void receiveAttack(Character* characterAttacker)=0;
+        virtual bool isTraversable() = 0;
 
 };
 
